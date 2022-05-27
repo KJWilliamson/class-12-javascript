@@ -1,10 +1,10 @@
 document.querySelector('#yell').addEventListener('click', run)
 
 function run() {
-  const fName = document.querySelector('#firstName').value
-  const midName = document.querySelector('#middle').value
-  const lName = document.querySelector('#lastName').value
-  const vent = document.querySelector('#vent').value
+  const fName = document.querySelector('#firstName').value.toUpperCase();
+  const midName = document.querySelector('#middle').value.toUpperCase();
+  const lName = document.querySelector('#lastName').value.toUpperCase();
+  const vent = document.querySelector('#vent').value.toUpperCase();
 
   // document.querySelector('#placeToYell').innerText = fName + ' ' + fMidName + ' ' + ' ' + lMidName + ' ' + lName
 
